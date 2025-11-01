@@ -155,3 +155,18 @@ $(document).ready(function(){
 
 
 console.clear()
+
+
+const revealElements = document.querySelectorAll('.reveal-up');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+    } else {
+      entry.target.classList.remove('is-visible'); // 💫 esto hace que se repita
+    }
+  });
+}, { threshold: 0.1 }); // se activa cuando el 10% del elemento entra/sale
+
+revealElements.forEach(el => observer.observe(el));

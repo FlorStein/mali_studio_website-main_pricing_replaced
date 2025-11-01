@@ -467,7 +467,7 @@ footer{
 }
 
 /* ===== Timeline ===== */
-#mi-timeline{ background:linear-gradient(180deg, rgba(124,58,237,.05), transparent 30%); color:var(--sn-bg); padding:56px 0; }
+#mi-timeline{ color:var(--sn-bg); padding:56px 0; }
 .timeline{ list-style:none; margin:26px 0 0; padding:0; display:grid; gap:22px; position:relative; }
 .timeline::before{ content:""; position:absolute; left:14px; top:0; bottom:0; width:2px; background:linear-gradient(180deg, rgba(124,58,237,.6), rgba(124,58,237,.15)); }
 .tl-item{ display:grid; grid-template-columns:32px 1fr; gap:14px; align-items:flex-start; }
@@ -485,7 +485,7 @@ footer{
 
 /* ===== Reveal-on-scroll (genérico) ===== */
 .reveal-up{ opacity:0; transform:translateY(14px); will-change:transform, opacity; }
-.reveal-up.is-visible{ opacity:1; transform:none; transition:opacity .5s ease, transform .5s ease; }
+.reveal-up.is-visible{ opacity:1; transform:none; transition:opacity .8s ease, transform .8s ease; }
 
 /* Tipografía hereda del sitio */
 .nola-theme, .nola-theme *{ font-family: "Bebas Neue", sans-serif !important; letter-spacing:.2px; }
