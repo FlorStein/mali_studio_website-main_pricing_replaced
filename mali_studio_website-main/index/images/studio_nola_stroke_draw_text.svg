@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-label="STUDIO NOLA - trazo blanco">
+  <rect width="100%" height="100%" fill="none"/>
+  <g style="font-family: Futura, 'Avenir Next', 'Gill Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 180px; font-weight: 700; letter-spacing: 10px;" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+          stroke-dasharray="2000" stroke-dashoffset="2000">
+      STUDIO NOLA
+      <animate attributeName="stroke-dashoffset" from="2000" to="0" dur="5s" repeatCount="indefinite" />
+    </text>
+  </g>
+</svg>
