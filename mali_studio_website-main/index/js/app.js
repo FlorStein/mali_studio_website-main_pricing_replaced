@@ -131,7 +131,11 @@ $(document).ready(function(){
                 if (entry.isIntersecting) {
                     nav.classList.add('nav-on-servicios');
                 } else {
-                    nav.classList.remove('nav-on-servicios');
+                    // Solo quitar la clase si no hay ningún divider activo
+                    const hasActiveDivider = document.querySelector('.services.active');
+                    if (!hasActiveDivider) {
+                        nav.classList.remove('nav-on-servicios');
+                    }
                 }
             });
         }, {

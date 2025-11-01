@@ -1,5 +1,6 @@
 'use strict'
 
+const nav          =   document.querySelector('.nav')
 const info0         =   document.getElementById('info0')
 const info1         =   document.getElementById('info1')
 const info2         =   document.getElementById('info2') 
@@ -51,6 +52,8 @@ const row6          =   document.getElementById('row6')
         cartel0.classList.remove('cartel')
         divisor.classList.remove('bgr0')
         divider.classList.remove('bgr0')
+        document.body.classList.remove('bgr0')
+        nav.classList.remove('nav-on-servicios')
         bgr1.style.display ='flex'
         bgr2.style.display ='flex'
         bgr3.style.display ='flex'
@@ -67,6 +70,8 @@ const row6          =   document.getElementById('row6')
         cartel0.classList.add('cartel')
         divisor.classList.add('bgr0')
         divider.classList.add('bgr0')
+        document.body.classList.add('bgr0')
+        nav.classList.add('nav-on-servicios')
         bgr1.style.display = 'none'
         bgr2.style.display = 'none'
         bgr3.style.display = 'none'
@@ -86,6 +91,8 @@ const row6          =   document.getElementById('row6')
         cartel1.classList.remove('cartel')
         divisor.classList.remove('bgr1')
         divider.classList.remove('bgr1')
+        document.body.classList.remove('bgr1')
+        nav.classList.remove('nav-on-servicios')
         bgr0.style.display ='flex'
         bgr2.style.display ='flex'
         bgr3.style.display ='flex'
@@ -101,6 +108,8 @@ const row6          =   document.getElementById('row6')
         cartel1.classList.add('cartel')
         divisor.classList.add('bgr1')
         divider.classList.add('bgr1')
+        document.body.classList.add('bgr1')
+        nav.classList.add('nav-on-servicios')
         bgr0.style.display = 'none'
         bgr2.style.display = 'none'
         bgr3.style.display = 'none'
@@ -119,6 +128,8 @@ const row6          =   document.getElementById('row6')
         cartel2.classList.remove('cartel')
         divisor.classList.remove('bgr2')
         divider.classList.remove('bgr2')
+        document.body.classList.remove('bgr2')
+        nav.classList.remove('nav-on-servicios')
         bgr1.style.display ='flex'
         bgr0.style.display ='flex'
         bgr3.style.display ='flex'
@@ -134,6 +145,8 @@ const row6          =   document.getElementById('row6')
         cartel2.classList.add('cartel')
         divisor.classList.add('bgr2')
         divider.classList.add('bgr2')
+        document.body.classList.add('bgr2')
+        nav.classList.add('nav-on-servicios')
         bgr1.style.display = 'none'
         bgr0.style.display = 'none'
         bgr3.style.display = 'none'
@@ -152,6 +165,8 @@ const row6          =   document.getElementById('row6')
         cartel3.classList.remove('cartel')
         divisor.classList.remove('bgr3')
         divider.classList.remove('bgr3')
+        document.body.classList.remove('bgr3')
+        nav.classList.remove('nav-on-servicios')
         bgr1.style.display ='flex'
         bgr2.style.display ='flex'
         bgr0.style.display ='flex'
@@ -167,6 +182,8 @@ const row6          =   document.getElementById('row6')
         cartel3.classList.add('cartel')
         divisor.classList.add('bgr3')
         divider.classList.add('bgr3')
+        document.body.classList.add('bgr3')
+        nav.classList.add('nav-on-servicios')
         bgr1.style.display = 'none'
         bgr2.style.display = 'none'
         bgr0.style.display = 'none'
@@ -186,6 +203,8 @@ const row6          =   document.getElementById('row6')
         cartel4.classList.remove('cartel')
         divisor.classList.remove('bgr4')
         divider.classList.remove('bgr4')
+        document.body.classList.remove('bgr4')
+        nav.classList.remove('nav-on-servicios')
         bgr1.style.display ='flex'
         bgr2.style.display ='flex'
         bgr3.style.display ='flex'
@@ -201,6 +220,8 @@ const row6          =   document.getElementById('row6')
         cartel4.classList.add('cartel')
         divisor.classList.add('bgr4')
         divider.classList.add('bgr4')
+        document.body.classList.add('bgr4')
+        nav.classList.add('nav-on-servicios')
         bgr1.style.display = 'none'
         bgr2.style.display = 'none'
         bgr3.style.display = 'none'
@@ -219,6 +240,8 @@ const row6          =   document.getElementById('row6')
         cartel5.classList.remove('cartel')
         divisor.classList.remove('bgr5')
         divider.classList.remove('bgr5')
+        document.body.classList.remove('bgr5')
+        nav.classList.remove('nav-on-servicios')
         bgr1.style.display ='flex'
         bgr2.style.display ='flex'
         bgr3.style.display ='flex'
@@ -234,6 +257,8 @@ const row6          =   document.getElementById('row6')
         cartel5.classList.add('cartel')
         divisor.classList.add('bgr5')
         divider.classList.add('bgr5')
+        document.body.classList.add('bgr5')
+        nav.classList.add('nav-on-servicios')
         bgr1.style.display = 'none'
         bgr2.style.display = 'none'
         bgr3.style.display = 'none'
@@ -252,6 +277,8 @@ const row6          =   document.getElementById('row6')
         cartel6.classList.remove('cartel')
         divisor.classList.remove('bgr6')
         divider.classList.remove('bgr6')
+        document.body.classList.remove('bgr6')
+        nav.classList.remove('nav-on-servicios')
         bgr1.style.display ='flex'
         bgr2.style.display ='flex'
         bgr3.style.display ='flex'
@@ -268,6 +295,8 @@ const row6          =   document.getElementById('row6')
         cartel6.classList.add('cartel')
         divisor.classList.add('bgr6')
         divider.classList.add('bgr6')
+        document.body.classList.add('bgr6')
+        nav.classList.add('nav-on-servicios')
         bgr1.style.display = 'none'
         bgr2.style.display = 'none'
         bgr3.style.display = 'none'
