@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @font-face {
   font-family: 'soviet_programbold';
   src: url(../fonts/sovietprogram-bold-webfont.woff2) format('woff2'),
@@ -6,9 +8,6 @@
   font-style: normal;
   font-display: swap;
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 html{
     scroll-behavior: smooth;
